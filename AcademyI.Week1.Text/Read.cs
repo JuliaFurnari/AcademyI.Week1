@@ -14,10 +14,10 @@ namespace AcademyI.Week1.Text
             //StreamReader sr = new StreamReader(path);
             //string contenutoFIle = sr.ReadToEnd();
             //sr.Close();
-            //sr.Dispose()
+            //sr.Dispose();
 
             // Lettura dell'intero file
-            using(StreamReader sr = new StreamReader(path))
+            using (StreamReader sr = new StreamReader(path))
             {
                 string contenuto = sr.ReadToEnd();
             }
@@ -31,6 +31,7 @@ namespace AcademyI.Week1.Text
                 contenutoPrimaRiga = sr1.ReadLine();
             }
 
+            // array di stringhe
             var parole = contenutoPrimaRiga.Split(" ");
 
         }

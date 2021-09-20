@@ -16,7 +16,8 @@ namespace AcademyI.Week1.Text
             //sw.Close();
             //sw.Dispose();
 
-            using(StreamWriter sw1 = new StreamWriter(path))
+
+            using (StreamWriter sw1 = new StreamWriter(path))
             {
                 sw1.WriteLine("Questa è la mia prima riga");
             }
