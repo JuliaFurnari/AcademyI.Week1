@@ -3,19 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcademyI.Week1.ValueVsReference", "AcademyI.Week1.ValueVsReference\AcademyI.Week1.ValueVsReference.csproj", "{02E2F959-760E-4335-B734-9CD592253EA1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AcademyI.Week1.ValueVsReference", "AcademyI.Week1.ValueVsReference\AcademyI.Week1.ValueVsReference.csproj", "{02E2F959-760E-4335-B734-9CD592253EA1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcademyI.Week1.Text", "AcademyI.Week1.Text\AcademyI.Week1.Text.csproj", "{8F46D6CA-CF7A-4956-A4F3-C73C0EACD8F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AcademyI.Week1.Text", "AcademyI.Week1.Text\AcademyI.Week1.Text.csproj", "{8F46D6CA-CF7A-4956-A4F3-C73C0EACD8F9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo", "Demo", "{80399971-619B-41A0-AA40-F605927A3604}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercise", "Exercise", "{E96CEEE3-4C73-4199-AD81-8E6F7C7E7D7C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcademyI.Week1.Generics", "AcademyI.Week1.Generics\AcademyI.Week1.Generics.csproj", "{DC2A1EE7-9136-420F-8499-C0F16002A535}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AcademyI.Week1.Generics", "AcademyI.Week1.Generics\AcademyI.Week1.Generics.csproj", "{DC2A1EE7-9136-420F-8499-C0F16002A535}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcademyI.Week1.Pizzeria.Core", "AcademyI.Week1.Pizzeria.Core\AcademyI.Week1.Pizzeria.Core.csproj", "{D70FE901-3B21-4C76-9921-5B6AFC187FE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AcademyI.Week1.Pizzeria.Core", "AcademyI.Week1.Pizzeria.Core\AcademyI.Week1.Pizzeria.Core.csproj", "{D70FE901-3B21-4C76-9921-5B6AFC187FE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcademyI.Week1.Pizzaria.ConsoleAppMain", "AcademyI.Week1.Pizzaria.ConsoleAppMain\AcademyI.Week1.Pizzaria.ConsoleAppMain.csproj", "{58CEE961-1285-433D-BF6A-8F141FBA048F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AcademyI.Week1.Pizzaria.ConsoleAppMain", "AcademyI.Week1.Pizzaria.ConsoleAppMain\AcademyI.Week1.Pizzaria.ConsoleAppMain.csproj", "{58CEE961-1285-433D-BF6A-8F141FBA048F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eccezioni", "Eccezioni\Eccezioni.csproj", "{04086F45-7C53-42C9-9229-F873DD206A72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcademyI.Week1.MetodiEstensione", "AcademyI.Week1.MetodiEstensione\AcademyI.Week1.MetodiEstensione.csproj", "{A190B43D-FB04-4BE8-B03C-9BB3896CD92F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqEx", "LinqEx\LinqEx.csproj", "{7D183D05-5577-481C-9980-28264839FA5A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +49,18 @@ Global
 		{58CEE961-1285-433D-BF6A-8F141FBA048F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58CEE961-1285-433D-BF6A-8F141FBA048F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58CEE961-1285-433D-BF6A-8F141FBA048F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04086F45-7C53-42C9-9229-F873DD206A72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04086F45-7C53-42C9-9229-F873DD206A72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04086F45-7C53-42C9-9229-F873DD206A72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04086F45-7C53-42C9-9229-F873DD206A72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A190B43D-FB04-4BE8-B03C-9BB3896CD92F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A190B43D-FB04-4BE8-B03C-9BB3896CD92F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A190B43D-FB04-4BE8-B03C-9BB3896CD92F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A190B43D-FB04-4BE8-B03C-9BB3896CD92F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D183D05-5577-481C-9980-28264839FA5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D183D05-5577-481C-9980-28264839FA5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D183D05-5577-481C-9980-28264839FA5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D183D05-5577-481C-9980-28264839FA5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +71,9 @@ Global
 		{DC2A1EE7-9136-420F-8499-C0F16002A535} = {80399971-619B-41A0-AA40-F605927A3604}
 		{D70FE901-3B21-4C76-9921-5B6AFC187FE2} = {E96CEEE3-4C73-4199-AD81-8E6F7C7E7D7C}
 		{58CEE961-1285-433D-BF6A-8F141FBA048F} = {E96CEEE3-4C73-4199-AD81-8E6F7C7E7D7C}
+		{04086F45-7C53-42C9-9229-F873DD206A72} = {80399971-619B-41A0-AA40-F605927A3604}
+		{A190B43D-FB04-4BE8-B03C-9BB3896CD92F} = {80399971-619B-41A0-AA40-F605927A3604}
+		{7D183D05-5577-481C-9980-28264839FA5A} = {80399971-619B-41A0-AA40-F605927A3604}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B6F1A1B3-EA23-408F-853A-1C44AA5D5034}
