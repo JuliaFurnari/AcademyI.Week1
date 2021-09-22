@@ -27,6 +27,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AcademyI.Week1.Pizzaria.Rep
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcademyI.Week1.DelegatesAndEvent", "AcademyI.Week1.DelegatesAndEvent\AcademyI.Week1.DelegatesAndEvent.csproj", "{5EA4D500-0714-4F4F-AF41-C1CC8DA85820}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcademyI.Week1.Ado", "AcademyI.Week1.Ado\AcademyI.Week1.Ado.csproj", "{71DA3229-E13C-4766-8428-7F7C38329AA9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +75,10 @@ Global
 		{5EA4D500-0714-4F4F-AF41-C1CC8DA85820}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5EA4D500-0714-4F4F-AF41-C1CC8DA85820}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5EA4D500-0714-4F4F-AF41-C1CC8DA85820}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71DA3229-E13C-4766-8428-7F7C38329AA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71DA3229-E13C-4766-8428-7F7C38329AA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71DA3229-E13C-4766-8428-7F7C38329AA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71DA3229-E13C-4766-8428-7F7C38329AA9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -88,6 +94,7 @@ Global
 		{7D183D05-5577-481C-9980-28264839FA5A} = {80399971-619B-41A0-AA40-F605927A3604}
 		{E9EBADE3-E330-43E3-B155-91B08AE29F78} = {E96CEEE3-4C73-4199-AD81-8E6F7C7E7D7C}
 		{5EA4D500-0714-4F4F-AF41-C1CC8DA85820} = {80399971-619B-41A0-AA40-F605927A3604}
+		{71DA3229-E13C-4766-8428-7F7C38329AA9} = {80399971-619B-41A0-AA40-F605927A3604}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B6F1A1B3-EA23-408F-853A-1C44AA5D5034}
