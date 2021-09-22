@@ -1,12 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AcademyI.Week1.Pizzaria.RepositoryMock\AcademyI.Week1.Pizzaria.RepositoryMock.csproj" />
     <ProjectReference Include="..\AcademyI.Week1.Pizzeria.Core\AcademyI.Week1.Pizzeria.Core.csproj" />
   </ItemGroup>
 

@@ -20,9 +20,12 @@ namespace LinqEx
         // Libro con Id = 3
         public void GetById()
         {
-            var a = from book in books
-                    where book.Id == 3
-                    select book;
+            //var a = from book in books
+            //        where book.Id == 3
+            //        select book;
+
+            books.Where(b => b.Id == 3);
+
         }
 
         public void GroupByGenre()
